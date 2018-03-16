@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	DRI3 extension headers
 Summary(pl.UTF-8):	Nagłówki rozszerzenia DRI3
 Name:		xorg-proto-dri3proto
 Version:	1.0
-Release:	2
+Release:	2.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/dri3proto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/dri3proto-%{version}.tar.bz2
 # Source0-md5:	a3d2cbe60a9ca1bf3aea6c93c817fee3
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig
